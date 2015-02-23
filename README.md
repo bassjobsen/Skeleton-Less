@@ -5,7 +5,7 @@ Check out <http://getskeleton.com> for documentation and details.
 
 ## Getting started
 
-### Install Global Dependancies
+### Install Global Dependencies
   * [Node.js](http://nodejs.org)
   * [bower](http://bower.io): `[sudo] npm install bower -g`
   * [grunt.js](http://grunt.js); `[sudo] npm install -g grunt-cli`
@@ -40,6 +40,15 @@ Skeleton is lightweight and simple. It styles only raw HTML elements (with a few
 - Minified, it's less than a kb
 - It's a starting point, not a UI framework 
 - No compiling or installing...just vanilla CSS
+
+### Less.js plugin
+The [Skeleton Less Plugin](https://github.com/bassjobsen/less-plugin-skeleton) imports Skeleton Less code before your custom Less code.
+
+```
+npm install less
+npm install less-plugin-skeleton
+lessc file.less --skeleton
+```
 
 
 ## Browser support
